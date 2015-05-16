@@ -33,7 +33,7 @@ window.onload = function() {
     // create cube
 
     var cubeGeo = new THREE.BoxGeometry( 1, 1, 1 );
-    var texture	= THREE.ImageUtils.loadTexture('3dvis/assets/samface.jpg');
+    var texture	= THREE.ImageUtils.loadTexture('assets/samface.jpg');
     var cubeMat = new THREE.MeshLambertMaterial({ map: texture });
     var cube = new THREE.Mesh( cubeGeo, cubeMat );
     cube.castShadow = true;
